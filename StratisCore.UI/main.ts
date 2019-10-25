@@ -50,7 +50,7 @@ if (testnet && !sidechain) {
 // Sets default arguments
 const coreargs = require('minimist')(args, {
   default: {
-    daemonip: 'localhost',
+    daemonip: 'nasa.local',
     apiport: apiPortDefault
   },
 });
